@@ -1,0 +1,54 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+
+#header {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    margin-top: 3em;
+}
+
+#playGame {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#playGameButton {
+ size: 5em;
+ font-weight: bold;
+}
+
+#theGame {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+#theGameBox {
+    border: 3px black solid;
+}
+
+td {
+    width: 2em;
+    height: 1.5em; 
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 0;
+}
+
+td:focus {
+    outline: none;
+    background-color: gray;
+} 
+
+#scoreTable {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    gap: 20px;
+}
